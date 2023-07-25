@@ -116,7 +116,7 @@ nav {
 	letter-spacing:5px;
 	max-width:55%;
 	top:8rem;
-	left: 3rem;
+	left: 2rem;
 	position: relative;
 }
 
@@ -138,11 +138,11 @@ nav {
 }
 .dot1{
 	margin-top:2.7rem;
-	margin-left:29.5rem;
+	margin-left:28.5rem;
 }
 .dot2{
 	margin-top:2.5rem;
-	margin-left:29.5rem;
+	margin-left:28.5rem;
 }
 
 .slogan_about{
@@ -152,36 +152,23 @@ nav {
 	margin:0px;	
 	max-width:49%;
     margin-top:2rem;
-	margin-left:3rem;
+	margin-left:2rem;
 	color:#4b4a4a;
 	font-size: 2rem;
 	padding-bottom: 10px;
 	letter-spacing: 1px;
 }
 
-/* .logo_art{
-	display:none;
-	margin:0px;
-	border:3px solid white;
-	border-radius: 10%;
-	width:9rem;
-	height:9rem;
-	/* margin-left:56rem; */
-	/* margin-top:-50rem; */
-	/* margin-bottom:2rem;
-	margin-right:53rem;
-} */ 
 
 .analytics_btn{
-	/* margin-bottom: 0rem; */
-	/* text-transform: capitalize; */
+	
 	font-size: 2rem;
 	font-weight: 600;
 	color:rgb(238, 238, 241);
 	background: #0875c8;
 	width:20rem;
 	height:5rem;
-	margin-left:3rem;
+	margin-left:2rem;
 	margin-top:1.5rem;
 	border:1px solid #0875c8;
 	border-radius: 40px;
@@ -193,7 +180,6 @@ nav {
 	background: transparent;
 	color: rgb(9, 9, 9);
 	cursor: pointer;
-	/* border-bottom: 1px solid #00FFCA; */
 	transition: 0.3s;
 }
 
@@ -201,8 +187,6 @@ nav {
 	display:flex;
 	align-items: flex-start;
 	justify-content: center;
-	/* justify-content: space-around; */
-	/* margin-bottom:rem; */
 	margin-left:55rem;
 	margin-top: -28rem;
 	padding-bottom:3rem;
@@ -210,7 +194,6 @@ nav {
 }
 
 .logo_art1{
-	/* display:none; */
 	justify-self: flex-end;
 	margin:0px;
 	border:3px solid white;
@@ -222,13 +205,11 @@ nav {
 }
 
 .img1{
-	/* border:2px solid black; */
 	float: right;
 	position:relative;
 	width:50rem;
 	height:30rem;
-	/* margin-right:0rem;
-	margin-top:-42rem;  */
+	
 
 }
 
@@ -236,7 +217,7 @@ nav {
 
 	.slogan{
 		max-width:90%;
-		margin-top:5rem;
+		margin-top:3rem;
 	}
 	.slogan_about,.analytics_btn{
 		max-width:90%;
@@ -283,7 +264,6 @@ nav {
 	}
 
 	.slogan .newway{
-		/* display:none; */
 		border:none;
 		font-size: 2.6rem;
 		padding-left:.8rem;
@@ -315,25 +295,13 @@ nav {
 	.img{
 		display:flex;
 		justify-content: flex-start;
-
-		/* margin-left:0rem;
-		margin-top:28rem;
-		margin-bottom:rem; */
-		/* align-items: flex-start; */
-		/* justify-content: flex-start; */
 	}
 	.img1{
 		margin:0px;
-		/* justify-self: flex-start; */
-		/* border: 1px solid black; */
-		/* align-self: flex-start; */
-		/* position:relative; */
 		width:26rem;
-		height:20rem;
+		height:18rem;
 		margin-top:-2rem;
 		margin-bottom: 2rem;
-		/* margin-right:rem; */
-		
 	
 	}
 	.logo_art1{
@@ -346,7 +314,7 @@ nav {
 		height:5rem;
 		margin-top:-2rem;
 		margin-right:-5.5rem;
-		margin-left:.5rem;
+		margin-left:.9rem;
 		/* margin-left:-19rem;
 		margin-top:-61rem; */
 		}
