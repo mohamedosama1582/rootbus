@@ -8,7 +8,7 @@
 
 /*%%%%%%%%%%%%%%%%%%%%%%%  NAVIGATION BAR %%%%%%%%%%%%%%%%%%%%%%%*/
 nav {
-	background-color: #2D4356;
+	background-color: #011439;
 	width: 100%;
 	height: 4rem;
 	padding: 5px;
@@ -100,12 +100,10 @@ nav {
 .frontpage {
 	font-family: 'Rubik', sans-serif;
 	background: linear-gradient(130deg, rgba(79,226,164,1) 0%, rgba(37,219,149,1) 43%, rgba(8,196,227,1) 100%);
-	/* background: #435B66; */
 	width:100%;
-	height:fit-content;
+	height:auto;
 	position: relative;
 	overflow: hidden;
-	/* position:relative; */
 	
 }
    
@@ -127,8 +125,6 @@ nav {
 	border-radius: 5px;
 	border:1px white solid;
 	font-size: 4.5rem;
-	/* max-width:3rem; */
-	/* -webkit-background-clip:text; */
 	-webkit-text-fill-color:rgb(234, 227, 220);
 	padding-left:10px;
 	padding-right:3rem;
@@ -148,31 +144,33 @@ nav {
 	margin-top:2.5rem;
 	margin-left:29.5rem;
 }
-.logo_art{
-	margin:0px;
-	border:3px solid white;
-	border-radius: 10%;
-	width:9rem;
-	height:9rem;
-	margin-left:56rem;
-	margin-top:-50rem;
-}
-.logo_art1{
-	display:none;
-}
+
 .slogan_about{
 	text-transform: capitalize;
 	text-align:justify;
 	font-weight: 800;
 	margin:0px;	
 	max-width:49%;
-    margin-top:1.6rem;
+    margin-top:2rem;
 	margin-left:3rem;
 	color:#4b4a4a;
 	font-size: 2rem;
 	padding-bottom: 10px;
 	letter-spacing: 1px;
 }
+
+/* .logo_art{
+	display:none;
+	margin:0px;
+	border:3px solid white;
+	border-radius: 10%;
+	width:9rem;
+	height:9rem;
+	/* margin-left:56rem; */
+	/* margin-top:-50rem; */
+	/* margin-bottom:2rem;
+	margin-right:53rem;
+} */ 
 
 .analytics_btn{
 	/* margin-bottom: 0rem; */
@@ -184,7 +182,7 @@ nav {
 	width:20rem;
 	height:5rem;
 	margin-left:3rem;
-	margin-top:3rem;
+	margin-top:1.5rem;
 	border:1px solid #0875c8;
 	border-radius: 40px;
 	padding:10px;
@@ -200,20 +198,42 @@ nav {
 }
 
 .img{
-	margin-left:51rem;
-	margin-top:-42rem;
+	display:flex;
+	align-items: flex-start;
+	justify-content: center;
+	/* justify-content: space-around; */
+	/* margin-bottom:rem; */
+	margin-left:55rem;
+	margin-top: -28rem;
+	padding-bottom:3rem;
+	
 }
+
+.logo_art1{
+	/* display:none; */
+	justify-self: flex-end;
+	margin:0px;
+	border:3px solid white;
+	border-radius: 10%;
+	width:9rem;
+	height:9rem;
+	margin-right:-11rem; 
+	margin-bottom:-2rem; 
+}
+
 .img1{
+	/* border:2px solid black; */
+	float: right;
 	position:relative;
-	width:55rem;
-	height:55rem;
+	width:50rem;
+	height:30rem;
+	/* margin-right:0rem;
+	margin-top:-42rem;  */
 
 }
 
 @media(max-width:1320px){
-	/* .frontpage{
-		height:auto;
-	} */
+
 	.slogan,.slogan_about,.analytics_btn{
 		max-width:85%;
 		margin-top:5rem;
@@ -230,6 +250,7 @@ nav {
 		justify-content: center; */
 	}
 	.img1{
+		float:none;
 		justify-self: center;
 		align-self: center;
 		position:relative;
@@ -250,79 +271,93 @@ nav {
 		}
 	
 @media(max-width:430px){
+	
 	.frontpage{
 		margin-top:-8rem;
 		height:fit-content;
+		
 	}
 	.slogan{
-		font-size: 2.2rem;
+		font-size: 3rem;
 		letter-spacing:1px;
-		max-width:90%;
+		max-width:80%;
 		left:1rem;
-		line-height: 4rem;
+		line-height: 5rem;
 	}
 
 	.slogan .newway{
 		/* display:none; */
 		border:none;
-		font-size: 2.2rem;
+		font-size: 2.6rem;
 		padding-left:.8rem;
 	    padding-right:1rem;
 
 	}
 	.slogan_about{
+		color:rgb(32, 31, 31);
 		font-weight: 800;
-		max-width:85%;
-		margin-top:10rem;
+		max-width:90%;
+		margin-top:9rem;
 		margin-left:1rem;
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 	.analytics_btn{
 		font-size: 1.3rem;
 		width:80%;
 		height:fit-content;
-		margin-left:10%;
+		margin-left:1.5rem;
 		margin-top:3rem;
 		padding:18px;
 	}
 	.dot{
 		display:none;
 	}
-	
-	.logo_art{
-		width:0px;
-		height:0px;
-		/* display:none; */
-	}
+
 
 	
 	.img{
 		display:flex;
-		margin-left:0rem;
+		justify-content: flex-start;
+
+		/* margin-left:0rem;
 		margin-top:28rem;
-		margin-bottom:-25rem;
-		/* align-items: center;
-		justify-content: center; */
+		margin-bottom:rem; */
+		/* align-items: flex-start; */
+		/* justify-content: flex-start; */
 	}
 	.img1{
-		justify-self: center;
-		align-self: center;
-		position:relative;
-		width:20rem;
+		margin:0px;
+		/* justify-self: flex-start; */
+		/* border: 1px solid black; */
+		/* align-self: flex-start; */
+		/* position:relative; */
+		width:26rem;
 		height:20rem;
+		margin-top:-2rem;
+		margin-bottom: 2rem;
+		/* margin-right:rem; */
+		
 	
 	}
 	.logo_art1{
-		display:block;
+		/* display:block; */
+		/* align-self: flex-end; */
 		margin:0px;
 		border:2px solid white;
 		border-radius: 10%;
 		width:5rem;
 		height:5rem;
-		margin-left:-19rem;
-		margin-top:-61rem;
+		margin-top:-2rem;
+		margin-right:-5.5rem;
+		margin-left:.5rem;
+		/* margin-left:-19rem;
+		margin-top:-61rem; */
 		}
-	
+		
+      .about-contents{
+          justify-content: flex-start;
+		  padding:0px;
+       }
 
 }
 }
@@ -372,7 +407,20 @@ nav {
 	line-height: 2.5rem;
 	text-align: justify;
 }
-
+@media(max-width:430px){
+	.about-para{
+		font-size: 1rem;
+	}
+	.about-contents{
+		justify-content: flex-start;
+		padding:.5rem;
+		/* font-size: .3rem; */
+	 }
+	 #aboutus{
+		padding-right:0.5rem;
+		padding-left:.5rem ;
+	 }
+}
 
 /*%%%%%%%%%%%%%%%%%%%%%%% Footer %%%%%%%%%%%%%%%%%%%%%%%*/
 footer {
