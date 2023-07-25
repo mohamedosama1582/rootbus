@@ -248,8 +248,7 @@ nav {
 		
 		} 
 	
-@media(max-width:430px){
-	
+@media(max-width:430px{
 	.frontpage{
 		margin-top:-8rem;
 		height:fit-content;
@@ -319,13 +318,7 @@ nav {
 		margin-left:.9rem;
 		/* margin-left:-19rem;
 		margin-top:-61rem; */
-		}
-		
-      .about-contents{
-          justify-content: flex-start;
-		  padding:0px;
-       }
-
+	}
 }
 }
 /*%%%%%%%%%%%%%%%%%%%%%%% ABOUT US %%%%%%%%%%%%%%%%%%%%%%%*/
