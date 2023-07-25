@@ -217,7 +217,7 @@ nav {
 
 	.slogan{
 		max-width:90%;
-		margin-top:3rem;
+		margin-top:5rem;
 	}
 	.slogan_about,.analytics_btn{
 		max-width:90%;
@@ -259,6 +259,7 @@ nav {
 		font-size: 3rem;
 		letter-spacing:1px;
 		max-width:90%;
+		margin-top:5rem;
 		left:1rem;
 		line-height: 5rem;
 	}
