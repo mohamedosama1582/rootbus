@@ -90,15 +90,7 @@ nav {
 	.menu:hover {
 		cursor: pointer;
 	}
-	.img1{
-		width:500px;
-		height:500px;
-		left:0rem;
-		bottom:25rem;
-	}
-	.slogan{
-		font-size: 3rem;
-	}
+	
 }
 
 /*%%%%%%%%%%%%%%%%%%%%%%%  FRONT PAGE %%%%%%%%%%%%%%%%%%%%%%%*/
