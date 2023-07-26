@@ -100,7 +100,7 @@ nav {
 .frontpage {
 	font-family: 'Rubik', sans-serif;
 	background: linear-gradient(130deg, rgba(79,226,164,1) 0%, rgba(37,219,149,1) 43%, rgba(8,196,227,1) 100%);
-	width:auto;
+	width:100%;
 	height:auto;
 	position: relative;
 	overflow-x: hidden;
@@ -193,7 +193,6 @@ nav {
 }
 
 .logo_art1{
-	index-z:(-1);
 	justify-self: flex-end;
 	margin:0px;
 	border:3px solid white;
